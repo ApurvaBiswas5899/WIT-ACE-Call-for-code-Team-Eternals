@@ -40,6 +40,8 @@ With the help of technology we want to bridge this gap between the supply and de
 
 It is imperative that we connect these eateries to the people who need affordable good qualiy food. We created and online store having a Android application, an IOS application and a Web application where eateries can update their surplus food. Users can then scroll though the available food and book their affordable meal. This will not only ensure that the surplus food is not wasted but also help those millions of hungry people with proper meals. 
 
+The primary goal of Burpp is to fight the growing issue of food waste. To do so, it provides a solution for food service providers to sell their surplus food which otherwise would have been wasted during business hours. However, the app is just one way to fight food waste, as it also directly encourages households, schools and general public to change their behaviour and aims to influence people that will reduce food waste further.
+
 ![Solution](./assets/summary/burppSolution.png)
 
 ## Demo Video
