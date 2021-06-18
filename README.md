@@ -19,6 +19,7 @@
 - [Project roadmap](#project-roadmap)
 - [Impact](#impact)
 - [Work Done So Far](#work-done-so-far)
+- [Conclusions from data](#conclusions)
 - [FAQ](#faq)
 - [React App Website](#react-app-website)
 - [React Native Mobile Application (Android + IOS)](#react-native-mobile-application)
@@ -85,6 +86,22 @@ https://drive.google.com/file/d/1TG-79s-rIGqnf_5ZUEazys67OF1X08FJ/view?usp=shari
 ## Work Done So Far
 
 ![TWork Done So Far](./assets/summary/burppWorkDoneSoFar.jpg)
+
+## Conclusions from data
+
+This is just to show how we will use the data ans analyse it to get meaningful insigts. For now we have used Zomato database. Once we have our own database We will use it to get even better insights.
+
+![1](./assets/conclusions/1.png)
+![2](./assets/conclusions/2.png)
+![3](./assets/conclusions/3.png)
+![4](./assets/conclusions/4.png)
+![5](./assets/conclusions/5.png)
+![6](./assets/conclusions/6.png)
+![7](./assets/conclusions/7.png)
+![8](./assets/conclusions/8.png)
+![9](./assets/conclusions/9.png)
+![10](./assets/conclusions/10.png)
+![11](./assets/conclusions/11.png)
 
 ## FAQ
 
