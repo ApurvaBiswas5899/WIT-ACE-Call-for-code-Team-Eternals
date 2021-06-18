@@ -1,0 +1,294 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto;
+}
+.name{
+  line-height: 8vh;
+  margin: auto;
+}
+.content 
+{
+  margin: auto;
+}
+.profile-details
+{    
+  background-color:  #FF5454;
+  min-height: 10px;
+  position: relative;
+}
+
+.edit-button {
+  width: 50px;
+  height: 50px;
+  top: 2%;
+  right: 0;  
+  position: absolute;
+}
+
+.limit-length{
+  width: 145px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rounded-border-1{
+  box-shadow:0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.coin-details{
+  background-color: #FFD200;
+  }
+  
+.my-shadow-out{
+  box-shadow:0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.my-shadow-div{
+  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.my-shadow-in{
+  border: none;
+  background-color: #f6f6f6;
+  box-shadow:0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* .t-wt-700{
+  font-weight: 500;
+} */
+
+ul {
+  list-style: none;
+  list-style-image: url(./images/bullet.png) ;
+}
+
+ul li::before {
+  width: 1em;
+}
+
+@media (max-width: 767.98px) { 
+  .name {
+    font-size: 1rem;
+}
+}
+
+ .mail
+ {
+   font-size: 1rem;
+ }
+ 
+ .contact
+ {
+   font-size: 1rem;
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .name {
+    font-size: 1.2rem;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  .name {
+    font-size: 1.5rem;
+}
+
+ }
+
+
+@media (min-width: 1200px) {
+  .name {
+    font-size: 2rem;
+}
+.mail
+{
+  font-size: 1.2rem;
+}
+
+.contact
+{
+  font-size: 1.2rem;
+}
+
+  }
+
+
+  @media (max-width: 768px)  { 
+    .cartrers>h3{
+      font-size: 3.5vw;
+    }
+    .cartrers>p{
+      font-size: 2.5vw;
+    }
+    .cartcontent
+    {
+      font-size: 2.5vw;
+    }
+    .cartcontent>h3
+    {
+      font-size: 2.5vw;
+    }
+  
+   }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+    .cartrers>h3{
+      font-size: 1.5vw;
+    }
+    .cartrers>p{
+      font-size: 1.2vw;
+    }
+    .cartcontent
+    {
+      font-size: 1.2vw;
+    }
+    .cartcontent>h3
+    {
+      font-size: 1.2vw;
+    }
+  
+   }
+  
+  @media (min-width: 992px) and (max-width: 1199.98px) { 
+    .cartrers>h3{
+      font-size: 2vw;
+    }
+    .cartrers>p{
+      font-size: 1.5vw;
+    }
+    .cartcontent
+    {
+      font-size: 1.5vw;
+    }
+    .cartcontent>h3
+    {
+      font-size: 1.5vw;
+    }
+  
+   }
+  
+  
+  @media (min-width: 1200px) {
+    .cartrers>h3{
+      font-size: 1.5vw;
+    }
+    .cartrers>p{
+      font-size: 1vw;
+    }
+    .cartcontent
+    {
+      font-size: 1vw;
+    }
+    .cartcontent>h3
+    {
+      font-size: 1vw;
+    }
+    
+  
+    }
+
+.imagecart>img{
+height: 25px;
+width: 25px;
+min-width: 20px;
+    }
+
+    .submitBtn-Div{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      display: flex;
+      flex-direction: row-reverse;
+      /* padding-right: 30%; */
+    }
+
+.bottom-buttons{
+  /* margin-left: 88%; */
+  /* padding: 0.2rem 25%; */
+  width: 125px;
+  background-color:#F14545;
+  box-shadow: 0px 4px 1px -1px rgba(0, 0, 0, 0.05);
+  color: white;
+  margin: 2px 4px;
+  border-radius: 4px;
+  border: none;
+  padding: 3px;
+}
+
+@media (max-width:350px) {
+  .bottom-buttons{
+    width: 100px;
+  }
+}
+
+@media (min-width:768px)
+ {
+     .review-Modal{
+         max-width: 70% !important;
+     }
+ }
+ 
+ @media (max-width:768px)
+ {
+     .review-Modal{
+         max-width: 95% !important;
+     }
+    
+ }
+ .form-group{
+  margin-top: 1rem;
+}
+.text-Input-enable{
+  width: 100%;
+  border-radius: 5px;
+  padding: 1%;
+  padding-left: 2%;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border:1px solid black;
+  box-shadow: 0px 4px 1px -1px rgba(0, 0, 0, 0.05);
+}
+
+.text-Input-disable{
+  width: 100%;
+  border-radius: 5px;
+  padding: 1%;
+  padding-left: 3%;
+  font-size: 0.8rem;
+  font-weight: 900;
+  border:1px solid black;
+}
+
+.modalHeadings{
+    margin: 0px;
+    font-size: 12px;
+} 
+
+.past-contact-active{
+  font-size: 1.1rem;
+}
+.past-contact{
+  font-size: 0.9rem;
+}
+
+@media ( min-width: 400px ){
+.past-contact-active{
+  font-size: 1.4rem;
+}
+.past-contact{
+  font-size: 1.2rem;
+}
+}
+
+@media ( min-width: 800px ){
+  .past-contact-active{
+    font-size: 1.6rem;
+  }
+  .past-contact{
+    font-size: 1.4rem;
+  }
+  }

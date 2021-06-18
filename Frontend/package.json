@@ -1,0 +1,115 @@
+{
+  "name": "burpp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-regular-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@react-google-maps/api": "^2.0.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "axios-cache-adapter": "^2.7.3",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.0.0-beta1",
+    "burpp": "file:./",
+    "chokidar": "^3.5.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "file": "^0.2.2",
+    "google-map-react": "^2.1.9",
+    "google-maps": "^4.3.3",
+    "google-maps-react": "^2.0.6",
+    "i": "^0.3.6",
+    "js-cookie": "^2.2.1",
+    "localforage": "^1.9.0",
+    "localforage-memoryStorageDriver": "^0.9.2",
+    "mapbox-gl": "^2.2.0",
+    "material-ui-rating": "^4.2.0",
+    "npm": "^6.14.11",
+    "react": "^17.0.1",
+    "react-alert": "^7.0.2",
+    "react-alert-template-basic": "^1.0.0",
+    "react-bootstrap": "^1.4.3",
+    "react-cool-img": "^1.2.9",
+    "react-devtools": "^4.10.1",
+    "react-dom": "^17.0.1",
+    "react-facebook-login": "^4.1.1",
+    "react-geocode": "^0.2.3",
+    "react-google-login": "^5.2.2",
+    "react-google-maps": "^9.4.5",
+    "react-helmet": "^6.1.0",
+    "react-mapbox-gl": "^5.1.1",
+    "react-popper": "^2.2.5",
+    "react-redux": "^7.2.2",
+    "react-reveal": "^1.2.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "reactstrap": "^8.9.0",
+    "recompose": "^0.30.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "responsive-img-material-ui": "^2.2.0",
+    "string-encode-decode": "^1.0.7",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "serverNode": "node ./src/pages/profilepage/server.js",
+    "server": "nodemon ./src/pages/profilepage/server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "ignorePatterns": [
+      "src/*",
+      "!src/test.js"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "react-content-loader": "^6.0.3"
+  },
+  "description": "<img src=\"https://github.com/TeamBurpp/Web-FrontEnd/blob/main/Burppit_SS.png\" alt=\"Home Screen\" width=\"80%\" height=\"400px\">",
+  "main": "textExp.js",
+  "repository": {
+    "type": "git",
+    "url": "-y"
+  },
+  "keywords": [
+    "-g"
+  ],
+  "author": "'",
+  "license": "ISC"
+}

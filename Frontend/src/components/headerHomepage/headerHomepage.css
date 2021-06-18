@@ -1,0 +1,29 @@
+.margin-header-home {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.nav-header-home {
+  /* background-color: grey; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-home {
+  margin-left: 15%;
+}
+
+@media (min-width: 1400px) {
+  .location-home {
+    margin-left: 20%;
+  }
+}
+
+.Navlinks {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.Navlinks--pink {
+  color: #ff5454 !important;
+}

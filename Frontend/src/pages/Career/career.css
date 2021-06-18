@@ -1,0 +1,116 @@
+.Main-header {
+    font-size: 2.5em;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 15%;
+    right: 10%;
+  }
+  .Contact-header{
+    color: white;
+    font-weight: bold;
+    font-size: 2.6em;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%
+  }
+
+  @media (max-width: 768px) {
+    .Contact-header{
+      font-size: 2em;
+      padding-top: 2%;
+      padding-bottom: 2%;
+    }
+  }
+
+  @media (max-width: 560px) {
+    .Contact-header{
+      font-size: 1.8em;
+      padding-top: 2%;
+      padding-bottom: 2%;
+    }
+  }
+
+  @media (max-width: 468px) {
+    .Contact-header{
+      font-size: 1.5em;
+      padding-top: 2%;
+      padding-bottom: 1%;
+    }
+  }
+
+  .Sub-heading{
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+.Input-head{
+  color: white;
+  font-size: 12px;
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+  .Input-small{
+    border-radius: .2em;
+    height: 1.7em;
+    border: 0;
+    width: 100%;
+  }
+
+  .Input-wide{
+    border-radius: .2em;
+    height: 1.7em;
+    width: 100%;
+    border: 0;
+  }
+  .Input-big{
+    border-radius: .2em;
+    height: 7em;
+    width: 100%;
+    border: 0;
+  }
+  .Submit-button{
+    background-color: #FD037D;
+    color: white;
+    width: 66.66%;
+    border: 0;
+    border-radius: .2em;
+    padding: .5em;
+  }
+  .Logo{
+    width: 4%;
+    min-width: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+.follow-career{
+  color: white;
+  font-size: 32px;
+}
+
+@media (max-width: 1200px) {
+  .follow-career{
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .follow-career{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 560px) {
+  .follow-career{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 468px) {
+  .follow-career{
+    font-size: 12px;
+  }
+}
