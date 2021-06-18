@@ -1,0 +1,14 @@
+PayOnPickup should be displayed only if order is confirmed
+Till now user location is static, if loggedIn toh we'll display Mumbai/current Loc else "Location"
+Once API call is made it should be saved, unless there is a change in particular props -> useEffect,[props]
+
+!! Ek issue h, register krne ke baad verify ho jayega but agar new khologe toh naya page banana hoga for entering the Email 
+
+HomePage restro underline nhi hat rha & HomePage Header shi nhi ho rha
+Register se direct email verify ho rha - Informed Backend
+Empty Full Cart ka button - Next Update Mein
+Add navigation - Mapbox / Google API
+Forgot password - Login
+
+Pastorder not updating properly
+Order summary Css 

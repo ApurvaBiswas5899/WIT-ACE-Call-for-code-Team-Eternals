@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+/* Dancing script */
+
+.footer{
+    background: #F5F5F5;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 3rem;
+}
+
+.upperFooter{
+    margin-left: 2rem;
+    margin-right: 10%;
+}
+
+.companyName{
+    font-family: 'Dancing Script', cursive !important;
+    font-weight: 700;
+    /* color: white; */
+} 
+
+.iconDiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.followUs{
+    font-family: 'Dancing Script', cursive !important;
+    font-weight: 700;
+    color:#686A79;
+    font-size: 1.4rem;
+    align-self:flex-start;
+} 
+
+@media (max-width: 576px) {
+    .followUs{
+        align-self:center;
+    } 
+   
+.upperFooter{
+    margin-right: 2rem;
+}
+}
+
+.socialIcons{
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.socialIcons img{
+    width: 2.3rem;
+    height: 2.3rem;
+}
+
+.lowerFooter{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.lowerFooterRight img{
+    width: 10rem;
+}
+
+.companyDiv{
+    /* color: white; */
+    margin: 1rem 0rem;
+    min-width: 15%;
+}
+@media screen and (max-width: 600px){
+    .companyDiv{
+        min-width: 35%;
+    }
+}
+.companyDiv a{
+    color: #292A40 !important;
+    font-size: 0.9rem;
+}
+
+.divTitle{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+} 

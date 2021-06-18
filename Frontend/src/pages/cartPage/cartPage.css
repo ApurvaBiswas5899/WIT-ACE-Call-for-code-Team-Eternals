@@ -1,0 +1,492 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto";
+}
+.overall-container {
+  overflow: hidden;
+}
+.p {
+  margin-bottom: 0 !important;
+}
+.avatar {
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.cart__logo__section {
+  display: flex;
+  margin-left: 9rem;
+}
+.cart__logo {
+  height: 70px;
+  margin-right: 2rem;
+}
+
+.cart__logo__text {
+  color: #ff5454;
+  font-size: 3rem;
+  align-self: center;
+}
+.content_div {
+  display: flex;
+  padding-top: 40px;
+  justify-content: center;
+}
+.restaurant {
+  margin-bottom: 50px;
+}
+.restaurant__image__container {
+  margin-left: 144px;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.restaurant_image {
+  width: 150px;
+  height: 120px;
+}
+
+.restaurant__details {
+  padding-left: 25px;
+  width: 750px;
+}
+
+.restaurant__name {
+  font-size: x-large;
+  color: #292a40;
+}
+.restaurant__timing {
+  color: #3c3f52;
+}
+.item {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  width: 50%;
+}
+.item__name {
+  padding-left: 20px;
+}
+.item__price {
+  width: 33.3333%;
+  text-align: end;
+  padding-right: 15px;
+}
+.cart__item__container {
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 250px;
+  margin-bottom: 100px;
+}
+.cart__item__container::-webkit-scrollbar {
+  display: none;
+}
+.cart__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(133, 135, 147, 0.4);
+  /* box-shadow: 0 8px 6px -6px black; */
+  margin-bottom: 30px;
+}
+.item__count {
+  display: flex;
+  width: 33.3333%;
+  justify-content: space-around;
+  /* align-content: space-between; */
+}
+
+.count {
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  width: 33.3333%;
+  text-align: center;
+}
+.add {
+  cursor: pointer;
+  color: #20b941;
+}
+
+.subtract {
+  font-weight: 600;
+  cursor: pointer;
+}
+.subtract:hover {
+  color: red;
+}
+
+.bill__heading {
+  margin-bottom: 12px;
+  color: #292a40;
+  font-size: 1.5rem;
+  padding-left: 10px;
+}
+.item__total {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
+}
+.total {
+  padding-left: 10px;
+}
+.tax__and__charges {
+  padding-left: 10px;
+}
+.pay {
+  padding-left: 10px;
+  padding-bottom: 15px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.topay__value {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.tax {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+.topay {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
+  padding-top: 10px;
+}
+#payment__card {
+  width: 700px;
+  padding: 0px 100px 100px 100px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  border-radius: 0;
+  border-left: 2px solid rgb(41, 42, 64) !important;
+}
+.toggle__container {
+  justify-content: space-around;
+}
+.payment__heading {
+  padding: 5px;
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+}
+.walt,
+.online {
+  padding: 10px 30px;
+}
+/* .body-container {
+  border: 2px solid #eb5151;
+  box-sizing: border-box;
+  border-radius: 8px;
+} */
+.pay__on__pickup {
+  padding: 10px;
+  padding-top: 25px;
+  font-weight: 600;
+}
+.paymet_qut {
+  padding: 10px;
+  padding-bottom: 10px;
+}
+.powerd__by {
+  padding-left: 10px;
+}
+.razorpay {
+  width: 300px;
+  padding-bottom: 30px;
+}
+
+.empty__cart__img {
+  width: 800px;
+  height: 400px;
+}
+
+@media (max-width: 1510px) {
+  #payment__card {
+    width: 500px;
+    padding: 0px 100px 100px 100px;
+  }
+}
+
+@media (max-width: 1420px) {
+  #payment__card {
+    padding: 50px;
+  }
+  .restaurant__image__container {
+    margin-left: 44px;
+    height: 100%;
+  }
+  .cart__logo__section {
+    margin-left: 3rem;
+  }
+}
+@media (max-width: 1195px) {
+  .restaurant__image__container {
+    margin-left: 50px;
+  }
+  .content_div {
+    flex-wrap: wrap;
+    padding-top: 20px;
+  }
+  #payment__card {
+    padding: 0;
+    width: 600px;
+    margin-left: 0;
+    border: 0 !important;
+  }
+  .payment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 955px) {
+  .restaurant__details {
+    justify-content: center;
+    width: 100%;
+    padding: 40px;
+  }
+  .cart__item__container::-webkit-scrollbar {
+    display: none;
+  }
+  .empty__cart__img {
+    width: 800px;
+    height: 300px;
+    padding: 30px;
+  }
+  .restaurant__image__container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 651px) {
+  .payment {
+    transform: scale(0.9);
+  }
+}
+
+@media (max-width: 531px) {
+  .cart__logo__section {
+    display: flex;
+    margin-left: 1rem;
+  }
+
+  #payment__card {
+    width: 400px;
+  }
+  .cart__logo__text {
+    font-size: 2.5rem;
+  }
+  .restaurant__details {
+    padding: 10px;
+  }
+  .restaurant__image__container {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 401px) {
+  #payment__card {
+    /* transform: scale(0.8 ); */
+  }
+
+  .cart__logo__text {
+    font-size: 1.5rem;
+  }
+  .book__now__button {
+    margin: 0 20px 0 20px;
+  }
+  .cart__logo__text {
+    margin: 0%;
+  }
+  .empty__cart__img {
+    height: 200px;
+    padding: 0;
+  }
+  .cart__logo {
+    height: 50px;
+  }
+}
+@media (max-width: 261px) {
+  .cart__logo__section {
+    /* transform: scale(.8); */
+  }
+  .content_div {
+    /* transform: scale(.8); */
+  }
+}
+.qnas__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.qnas {
+  padding: 30px;
+  width: 900px;
+  height: 300px;
+  background-color: #f5f5f5;
+}
+
+.rounded-border {
+  border: 1px solid rgb(212, 211, 211);
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.my-border {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.dropdown-btn {
+  background-color: #ffffff;
+  border-radius: 25px;
+  width: 300px; /*Can be left constant*/
+  height: 35px; /*Can be left constant*/
+  text-align: center;
+  color: black;
+}
+
+.payBtn,
+.payBtn:hover {
+  background: #ff5454;
+}
+.payBtnpickup,
+.payBtnpickup:hover {
+  background: #ff5454;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+/* .inner-card{
+  margin: 20px;
+  background-color: #FFFFFF;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+} */
+@media (max-width: 768px) {
+  .payBtnpickup,
+  .payBtnpickup:hover {
+    margin: 0;
+  }
+
+  .cartrers > h3 {
+    font-size: 3vw;
+  }
+  .cartrers > p {
+    font-size: 1.8vw;
+  }
+  .cartcontent {
+    font-size: 1.8vw;
+  }
+  .cartcontent > h3 {
+    font-size: 1.8vw;
+  }
+  .payBtnpickup {
+    font-size: 3.5vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .payBtnpickup,
+  .payBtnpickup:hover {
+    margin: 0;
+  }
+
+  .cartrers > h3 {
+    font-size: 2.8vw;
+  }
+  .cartrers > p {
+    font-size: 1.5vw;
+  }
+  .cartcontent {
+    font-size: 1.5vw;
+  }
+  .cartcontent > h3 {
+    font-size: 1.5vw;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .cartrers > h3 {
+    font-size: 2.4vw;
+  }
+  .cartrers > p {
+    font-size: 1.5vw;
+  }
+  .cartcontent {
+    font-size: 1.5vw;
+  }
+  .cartcontent > h3 {
+    font-size: 1.5vw;
+  }
+}
+
+@media (min-width: 1201px) {
+  .cartrers > h3 {
+    font-size: 2vw;
+  }
+  .cartrers > p {
+    font-size: 1.2vw;
+  }
+  .cartcontent {
+    font-size: 1.2vw;
+  }
+  .cartcontent > h3 {
+    font-size: 1.2vw;
+  }
+}
+.cart__item:nth-child(odd) > .item > img {
+  border: 2px solid #03a427;
+}
+.cart__item:nth-child(even) > .item > img {
+  border: 2px solid #ff0404;
+}
+
+.head {
+  padding-left: 2px;
+  margin-left: 3px;
+}
+.countings {
+  padding-left: 0px;
+  padding-right: 2px;
+  margin-left: 4px;
+}
+
+.imagecart > img {
+  height: 25px;
+  width: 25px;
+  min-width: 20px;
+}
+
+.eatery-image {
+  height: 46px;
+  width: 46px;
+}
+
+@media (max-width: 468px) {
+  .eatery-image {
+    height: 35px;
+    width: 35px;
+  }
+}
+
+.load__animation {
+  background-color: rgba(0, 0, 0, 0.11);
+  animation: load 1.5s ease-in-out 0.5s infinite;
+}

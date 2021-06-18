@@ -1,0 +1,300 @@
+.has-search .form-control {
+  padding-left: 3.5rem;
+}
+
+.has-search .form-control::placeholder {
+  color: #c4c4c4;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #aaa;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.searchDiv {
+  background: #ff5454;
+  height: fit-content;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  background-image: url("../images/HomeTheme.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 250px;
+}
+
+.searchBox {
+  display: flex;
+  margin: auto;
+  font-size: 2rem;
+  padding: auto;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.searchBox > span {
+  color: white;
+  font-weight: 700;
+  margin-right: 2rem;
+}
+
+.searchInput1 {
+  border: none;
+  outline: none;
+  width: 50vw;
+  padding: 0.5rem 2.5rem;
+  font-size: 1.5rem;
+}
+
+.searchButton {
+  border: none;
+  outline: none;
+  background: #c4c4c4;
+  padding: 0.5rem 2.5rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.searchButton:focus {
+  outline: none;
+}
+
+.searchImage {
+  position: relative;
+  right: 0;
+}
+
+.searchBoxLower {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.searchBoxLower a {
+  color: white !important;
+}
+
+.cards__container {
+  margin: 6%;
+}
+
+.restGrid {
+  margin-top: 3rem;
+  padding: 0 1rem;
+}
+
+.heading__of__food__sections{
+  font-size: 2rem;
+}
+
+.toggle__veg__nonveg{
+  align-self: center;
+font-size: 1.2rem;
+}
+
+@media (max-width: 1024px){
+  .heading__of__food__sections{
+    font-size: 1.5rem;
+  }
+
+  .cards__container {
+    margin: 8%;
+  }
+
+  .toggle__veg__nonveg{
+  font-size: 1rem;
+  }
+
+}
+
+.vegNon {
+  display: flex;
+  align-items: center;
+}
+
+.lineVeg {
+  display: flex;
+  border: 2px solid #c6c6c6;
+  height: 0rem;
+  width: 9rem;
+  margin-right: 1rem;
+}
+
+.greenLine {
+  border: 2px solid #0dd689;
+  height: 0rem;
+  width: 4.5rem;
+  margin-top: -0.1rem;
+  margin-left: -0.1rem;
+}
+
+.redLine {
+  border: 2px solid red;
+  height: 0rem;
+  width: 4.5rem;
+  margin-top: -0.1rem;
+  margin-right: -0.1rem;
+}
+
+.greenLineNo {
+  opacity: 0;
+  border: 2px solid #0dd689;
+  height: 0rem;
+  width: 4.5rem;
+  margin-top: -0.1rem;
+  margin-left: -0.1rem;
+}
+
+.redLineNo {
+  opacity: 0;
+  border: 2px solid red;
+  height: 0rem;
+  width: 4.5rem;
+  margin-top: -0.1rem;
+  margin-right: -0.1rem;
+}
+
+.vegText {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.nonVegText {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.card__flex__space__between {
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+}
+
+.card-img-top{
+  width: "200px"; 
+  height: "150px";
+}
+
+.rest__center{
+  display: flex;
+  justify-content: center;
+}
+.rating{
+    display: flex;
+    justify-content: center;
+    width: 34px;
+    height: 17px;
+    background-color: #ff5454;
+    border-radius: 2px;
+}
+
+.star{
+    height: 15px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.restingrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0%;
+  margin-top: 2rem;
+}
+.c{
+  margin-right:80px !important;
+}
+
+.restCards {
+  justify-content: center;
+}
+
+.restCard {
+  max-width: 16rem !important;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+}
+
+.restCard1 {
+  margin: 1rem;
+}
+
+.card {
+  border: none !important;
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+@media (max-width: 440px){
+  /* .cards__container{
+    margin: 3rem !important;
+  } */
+  .heading__of__food__sections{
+    font-size: 1.2rem;
+  }
+  .toggle__veg__nonveg{
+    font-size: 0.8rem;
+    }
+    .cards__container {
+      margin: 4%;
+    }
+}
+
+@media (max-width: 991.98px) {
+  .searchInput1 {
+    padding: 0;
+  }
+  .searchButton {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .searchBox > span {
+    margin-right: 0rem;
+    margin-top: 1.2rem;
+    font-size: 1.1rem;
+  }
+  .searchDiv {
+    padding-left: 0rem;
+  }
+}
+
+.toggle__menu{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 650px){
+  .restingrid{
+    justify-content: center;
+  }
+  .c{
+    margin-right:0px !important;
+  }
+}
+@media (max-width: 420px){
+  /* .i{
+    width: 248px !important;
+    height: 232px !important;
+  }
+  .card__flex__space__between {
+    width: 248px !important;
+  } */
+
+  .card-body{
+    transform: scale(1, .8);
+  }
+}

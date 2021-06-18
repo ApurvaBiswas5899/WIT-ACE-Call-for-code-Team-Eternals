@@ -1,0 +1,46 @@
+.restGrid{
+    margin-top: 3rem;
+    padding: 0 1rem;
+}
+
+.gridHead{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.gridHead h2{
+    font-weight: 700;
+}
+
+
+.restingrid{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.restCards{
+    justify-content: center;
+}
+
+.restCard{
+    max-width: 16rem !important;
+}
+
+.restCard1{
+    margin: 1rem;
+    
+}
+
+.card{
+    border: none !important;
+}
+
+.card-title{
+    font-size: 1.2rem;
+}
+
+.card-text{
+    font-size: 1rem;
+}

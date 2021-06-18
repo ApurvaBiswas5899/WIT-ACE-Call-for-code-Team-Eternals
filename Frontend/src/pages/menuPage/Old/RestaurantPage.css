@@ -1,0 +1,279 @@
+*{
+    font-family: Roboto;
+}
+.restro-pic{
+    height: auto;
+}
+.restro-info{
+    background-repeat: no-repeat ;
+    background-image: url('../../components/images/Back-2.png');
+    height: 240px;
+    background-size: cover;
+    --bs-gutter-x: 0 !important;
+}     
+
+.restro-pic img{
+    height: 240px;
+}
+.contact-buttons{
+    width: 100%;
+}
+.direction-btn{
+    width: 70%;
+    margin-left: 15%;
+}
+.contact-buttons img{
+height: 20px;
+width: 20px;
+}
+
+#line1{
+    height: 66px;
+}
+
+.view-gallery-1:hover{
+box-shadow: 3px 3px 6px #dddddd;
+}
+
+.menu-item{
+    /* border-radius: 15px 30px;  This is causing extra rounded borders */ 
+    box-shadow: 1px 5px 5px #aaaaaa;
+}
+
+.restro-details{
+    font-size: calc(7px + 0.6vw);
+}
+
+.add-btn { 
+    height: 40px;
+    width: 70px;
+    appearance: none;
+    /* padding: 5px 5px; */
+    /* font-size: calc(3.5px + 0.6vw); This is causing extra samll text */
+ }
+
+ @media (max-width:388px){
+    .add-btn { 
+        height: 35px;
+        width: 65px;
+        /* font-size: calc(3.5px + 0.5vw); This is causing extra samll text */
+     }
+ }
+
+.map-and-navigation{
+     height: 500px; 
+     background-color: #FCFCFC, 100%;
+ }
+  
+ .grid-layout {
+     height: 30vh;
+ } 
+ .grid-layout img{
+     height: 100%;
+     width: 100%;
+ }
+
+ .view-gallery-1{
+    position: relative;
+}
+
+.view-gallery-1 p{
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.extra-layer{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.6);
+}
+
+.view-gallery{
+  opacity: 0.8;
+    width: 100%;
+  height: auto;
+}
+.view-gallery-1:hover{
+    cursor: pointer;
+}
+/*  
+We can have different images for both mobile and desktop view from the restaurant
+@media screen and (max-width: 480px and ) {
+    .restro-info{
+
+        background-image: url('../../components/images/rest1.png');
+        background-size: cover;
+    }     
+  }
+@media screen and (max-width: 380px) {
+    .restro-info{
+
+        background-image: url('../../components/images/rest1.png');
+        background-size: contain;
+    }     
+} */
+
+
+ @media (min-width:768px)
+
+ {
+     .reviewModal{
+         max-width: 70% !important;
+     }
+ }
+ 
+ @media (max-width:768px)
+ {
+     .reviewModal{
+         max-width: 95% !important;
+     }
+     .map-and-navigation{
+         height: 150px;
+     }
+ }
+
+
+ #half-stars-example .rating-group {
+	 display: inline-flex;
+}
+ #half-stars-example .rating__icon {
+	 pointer-events: none;
+}
+ #half-stars-example .rating__input {
+	 position: absolute !important;
+	 left: -9999px !important;
+}
+ #half-stars-example .rating__label {
+	 cursor: pointer;
+	 padding: 0 0.1em;
+	 font-size: 2rem;
+}
+ #half-stars-example .rating__label--half {
+	 padding-right: 0;
+	 margin-right: -1.2em;
+	 z-index: 2;
+}
+ #half-stars-example .rating__icon--star {
+	 color: orange;
+}
+ #half-stars-example .rating__icon--none {
+	 color: #eee;
+}
+ #half-stars-example .rating__input--none:checked + .rating__label .rating__icon--none {
+	 color: red;
+}
+ #half-stars-example .rating__input:checked ~ .rating__label .rating__icon--star {
+	 color: #ddd;
+}
+ #half-stars-example .rating-group:hover .rating__label .rating__icon--star, #half-stars-example .rating-group:hover .rating__label--half .rating__icon--star {
+	 color: orange;
+}
+ #half-stars-example .rating__input:hover ~ .rating__label .rating__icon--star, #half-stars-example .rating__input:hover ~ .rating__label--half .rating__icon--star {
+	 color: #ddd;
+}
+ #half-stars-example .rating-group:hover .rating__input--none:not(:hover) + .rating__label .rating__icon--none {
+	 color: #eee;
+}
+ #half-stars-example .rating__input--none:hover + .rating__label .rating__icon--none {
+	 color: red;
+}
+
+.modalHeadings{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.form-group{
+    margin-top: 1rem;
+}
+
+.imageInput{
+    width: 8rem;
+    height: 8rem ;
+    border: 2px dashed #CED7D7;
+    border-radius: 5%;
+    margin: 0.7rem;
+    background-color: #FAFAFA;
+}
+
+.uploadPlus{
+    font-size: 4rem;
+    margin: 2rem;
+    color:#CED7D7;
+}
+
+.textInput{
+    width: 75%;
+    border-radius: 5px;
+    padding-left: 2px;
+    border:2px solid #9b9b9b;
+}
+
+.textAreaInput{
+    border: 2px solid #9b9b9b;
+    padding: 2px;
+    border-radius: 5px;
+    max-width: 98%;
+}
+
+.submitBtnDiv{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 3%;
+}
+
+.submitBtn{
+    /* margin-left: 88%; */
+    margin-top: 2%;
+    padding: 0.2rem 0.7rem;
+    background-color: #F7C74A;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.adjust-text-size Button , #example-collapse-text{
+    font-size: 1vw;
+}
+
+@media (max-width:512px) {
+    .adjust-text-size Button , #example-collapse-text{
+        font-size: 2.2vw ;
+    }
+}
+
+@media (min-width:513px) and (max-width:768px) {
+    .adjust-text-size Button , #example-collapse-text{
+        font-size: 1.5vw ;
+    }
+}
+
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+   background: grey;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thumb:active {
+    background: #FF5454;
+  }

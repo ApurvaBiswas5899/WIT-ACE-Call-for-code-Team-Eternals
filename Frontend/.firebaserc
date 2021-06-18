@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "burpp-user-website",
+    "Burpp-user-website-production": "burpp-user-website"
+  }
+}

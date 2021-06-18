@@ -1,0 +1,155 @@
+.orders__page__heading {
+  padding: 20px 20px 0 0;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.details {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.top__section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.order__restaurant__image__container {
+  padding-right: 30px;
+}
+
+.cancel__button {
+  border-color: none !important;
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.current__orders__container {
+  display: flex;
+  justify-content: space-between;
+}
+.order__item__container {
+  width: 50%;
+  margin-left: 165px;
+  margin-right: 100px;
+}
+
+.item__name {
+  color: #292a40;
+}
+.count {
+  color: #3c3f52;
+}
+
+.orders__restaurant__name {
+  color: #292a40;
+  font-size: 18px;
+  font-weight: 600;
+}
+.orders__restaurant__timing {
+  color: #3c3f52;
+}
+.payment__method {
+  color: rgb(255, 84, 84);
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.profile__not__delivery__fade {
+  opacity: 0.7;
+}
+.deliveryStatus {
+  font-size: 18px;
+  font-weight: 600;
+  color: #292a40;
+  padding-top: 28px;
+  text-align: center;
+}
+
+.bill__detail {
+  width: 40%;
+}
+.item__total,
+.tax {
+  padding-bottom: 5px;
+}
+
+.paid {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.paid--text,
+.paid--price {
+  color: #03a427;
+  font-size: 20px;
+  font-weight: 600;
+}
+.split__line {
+  border-bottom: 2px solid black;
+  margin: 20px 0 20px 0;
+}
+
+.PastOrder__add {
+  color: #03a427;
+}
+
+@media (max-width: 1400px) {
+  .orders_container {
+    margin: 0 30px 0 30px;
+  }
+  .order__item__container {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 840px) {
+  .current__orders__container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .order__item__container {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .bill__detail {
+    width: 100%;
+  }
+  .cart__item__container {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 578px) {
+  .orders_container {
+    transform: scale(0.8, 1);
+  }
+  .cancel__button {
+    font-size: 10px !important;
+  }
+  .orders__restaurant__name {
+    font-size: 16px;
+  }
+  .orders__restaurant__timing {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .details {
+    flex-wrap: wrap;
+  }
+  .restaurant_image {
+    width: auto;
+  }
+}

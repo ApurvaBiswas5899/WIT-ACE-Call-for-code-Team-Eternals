@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+
+/* .body-container{
+  border: 2px solid #EB5151;
+  box-sizing: border-box;
+  border-radius: 8px;
+} */
+
+.rounded-border{
+  border: 1px solid rgb(212, 211, 211);
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.my-border{
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.dropdown-btn{
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  width: 300px; /*Can be left constant*/
+  height: 35px; /*Can be left constant*/
+  text-align: center;
+  color: black;  
+}
+
+ .payBtn, .payBtn:hover{
+  background: #FF5454;
+ }
+ .payBtnpickup, .payBtnpickup:hover{
+   
+  background: #FF5454;
+  margin-top: 150px;
+  margin-bottom: 150px;
+ }
+ 
+/* .inner-card{
+  margin: 20px;
+  background-color: #FFFFFF;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+} */
+ @media (max-width: 768px)  { 
+
+  .payBtnpickup, .payBtnpickup:hover{
+    margin: 0;
+   }
+
+  .cartrers>h3{
+    font-size: 3vw;
+  }
+  .cartrers>p{
+    font-size: 1.8vw;
+  }
+  .cartcontent
+  {
+    font-size: 1.8vw;
+  }
+  .cartcontent>h3
+  {
+    font-size: 1.8vw;
+  }
+  .payBtnpickup
+  {
+    font-size: 3.5vw;
+  }
+
+ }
+
+@media (min-width: 768px) and (max-width: 992px) { 
+  
+  .payBtnpickup, .payBtnpickup:hover{   
+    margin: 0;
+   }
+   
+  .cartrers>h3{
+    font-size: 2.8vw;
+  }
+  .cartrers>p{
+    font-size: 1.5vw;
+  }
+  .cartcontent
+  {
+    font-size: 1.5vw;
+  }
+  .cartcontent>h3
+  {
+    font-size: 1.5vw;
+  }
+
+ }
+
+@media (min-width: 993px) and (max-width: 1200px) { 
+  
+  .cartrers>h3{
+    font-size: 2.4vw;
+  }
+  .cartrers>p{
+    font-size: 1.5vw;
+  }
+  .cartcontent
+  {
+    font-size: 1.5vw;
+  }
+  .cartcontent>h3
+  {
+    font-size: 1.5vw;
+    
+  }
+
+ }
+
+
+@media (min-width: 1201px) {
+  .cartrers>h3{
+    font-size: 2vw;
+  }
+  .cartrers>p{
+    font-size: 1.2vw;
+  }
+  .cartcontent
+  {
+    font-size: 1.2vw;
+  }
+  .cartcontent>h3
+  {
+    font-size: 1.2vw;
+  }
+  
+  }
+
+  .head{
+    padding-left: 2px;
+    margin-left: 3px;
+  }
+  .countings{
+    padding-left: 0px;
+      padding-right: 2px;
+      margin-left: 4px;
+  }
+  
+  .imagecart>img{
+    height: 25px;
+    width: 25px;
+    min-width: 20px;
+  }
+
+  .eatery-image{
+height: 46px;
+width: 46px;
+  }
+
+@media ( max-width : 468px ){
+  .eatery-image{
+  height: 35px;
+  width: 35px;
+}
+}
