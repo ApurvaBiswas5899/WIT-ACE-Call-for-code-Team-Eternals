@@ -1,0 +1,15 @@
+export const ActionTypes = {
+  RESTAURANTS_LIST: 'res_order',
+  RESTAURANT_GET: 'restaurants',
+  RESTAURANT_FAILED: 'res_failed',
+  MENU_LIST: 'menu_order',
+  MENU_GET: 'menu',
+  MENU_FAILED: 'menu_failed',
+  CART_ADD: 'cart_add',
+  CART_REMOVE: 'cart_remove',
+  CART_CLEAR: 'cart_clear',
+  CART_NEW: 'cart_new',
+  CART_MENU: 'cart_menu',
+  CART_ERROR: 'cart_error',
+  ORDERS: 'orders',
+};
