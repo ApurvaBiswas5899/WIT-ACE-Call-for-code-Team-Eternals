@@ -46,7 +46,7 @@ The primary goal of Burpp is to fight the growing issue of food waste. To do so,
 
 ## Demo Video
 
-
+![Burpp Demo Video](https://drive.google.com/file/d/1TG-79s-rIGqnf_5ZUEazys67OF1X08FJ/view?usp=sharing)
 
 ## The Architecture
 
